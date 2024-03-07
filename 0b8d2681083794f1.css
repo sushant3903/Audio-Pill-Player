@@ -1,0 +1,57 @@
+.TrackSelector_container__pm_iE {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.TrackSelector_trackButton__arDBC {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .8;
+    border-radius: 10px;
+    transition: all .2s ease
+}
+
+.TrackSelector_trackButton__arDBC:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 2
+}
+
+.TimelineControls_container__dIU_K {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.Timeline_timelineContainer__IvRqC {
+    width: 100%;
+    min-height: 180px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: visible;
+    overflow-x: auto
+}
+
+.page_container__aoG4z {
+    min-height: 100vh;
+    width: 100%
+}
+
+.page_header__kVzhN {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
